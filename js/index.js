@@ -65,3 +65,7 @@ $(".pecure a").on("click",function(){
 	var that = $(this).find("img").attr("src");
 	$(".hide img").attr("src",that);
 })
+//删除
+$(".hide span").on("click",function(){
+	$(this).parents(".hide").hide();
+})
