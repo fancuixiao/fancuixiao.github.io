@@ -50,7 +50,7 @@ window.onload  = function(){
 				a[j].className = "curr";
 			}
 		}
-		if(a.length>=6){
+		if(a.length>=5){
 			for (var j=0; j<a.length;j++) {
 				a[j].className = "currs";
 			}
