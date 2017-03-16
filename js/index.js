@@ -55,6 +55,7 @@ window.onload  = function(){
 				a[j].className = "currs";
 			}
 		}
+		
 	}
 }
 $(".delete").on("click",function(){
