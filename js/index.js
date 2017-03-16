@@ -65,7 +65,22 @@ $(".pecure a").on("click",function(){
 	var that = $(this).find("img").attr("src");
 	$(".hide img").attr("src",that);
 })
+
+
 //删除
 $(".hide span").on("click",function(){
 	$(this).parents(".hide").hide();
 })
+//赞
+$(".laud").on("click",function(){
+	console.log()
+	var num = $(this).parent().text();
+	if($(this).hasClass("curr")){
+		 num --;
+	}else{
+		num++;
+	}
+	$(this).siblings().text(num);
+	$(this).toggleClass("curr");
+})
+
