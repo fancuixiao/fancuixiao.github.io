@@ -1,0 +1,278 @@
+
+section{
+	overflow: auto;
+	width: 100%;
+}
+header{
+	width: 100%;
+	height: 2.1rem;
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 1;
+}
+.head_pture{	
+	width: 1.08rem;
+	height: 0.48rem;
+	line-height: 0.48rem;
+	color: #fff;
+	font-size: 0.16rem;
+	text-shadow: ;
+	position: absolute;
+	right: 0.16rem;
+	bottom:0.16rem;
+	z-index: 9;
+}
+.head_pture i{
+	float: right;
+	width: 0.48rem;
+	height: 0.48rem;
+	top:0;
+	left: 0;
+	position: relative;
+}
+.head_pture i:after{
+	content: "";
+	display: block;
+	width: 0.1rem;
+	height: 0.1rem;
+	background: red;
+	border-radius: 50%;
+	position: absolute;
+	top:-0.05rem;
+	right: -0.05rem;
+}
+.head_pture i img{
+	width: 100%;
+	height: 100%;
+}
+header i{
+	display: block;
+	height: 2.1rem;
+	width: 100%;
+}
+header i img{
+	width: 100%;
+	height: 100%;
+}
+.main{
+	width: 100%;
+	position: absolute;
+	top:2.1rem;
+	left: 0;
+}
+article{
+	padding: 0.16rem;
+	overflow: hidden;
+	width: 100%;	
+	box-sizing: border-box;
+	border-bottom:1px solid #f3f3f3;
+}
+.trends{
+	overflow: hidden;
+	padding-left: 0.48rem;
+	width: 100%;
+	box-sizing: border-box;
+	position: relative;
+}
+.trends a{
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.trends a img{
+	width: 100%;
+	height: 100%;
+}
+.trends p{
+	margin: 0.02rem 0 0.08rem 0;	
+	font-size: 0.14rem;
+	color:#41451D;
+	background: #fff0f0;
+	box-sizing: border-box;
+	height: 0.19rem;
+	width: 2.94rem;
+	line-height: 0.19rem;
+}
+.trends p:first-of-type{
+	margin: 0;
+	font-weight: bold;
+	font-size: 0.15rem;
+	display: inline-block;
+	width: auto;
+	padding-right: 0.05rem;
+}
+.hot_trends{
+	padding:0 0 0 0.52rem;
+	width: 100%;
+	height: 0.52rem;
+	box-sizing: border-box;
+	line-height: 0.53rem;
+	color: #41454D;
+	font-size: 0.13rem;
+	background: #F7F7F7;
+	position: relative;
+}
+.hot_trends span{
+	display: block;
+	width: 100%;
+}
+.hot_trends span.curr{
+	padding-top: 0.08rem;
+	line-height: 0.18rem;
+}
+.hot_trends em{
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+	position: absolute;
+	top:0.06rem;
+	left: 0.06rem;
+}
+.hot_trends em img{
+	width: 100%;
+	height: 100%;
+}
+.comments{
+	/*padding: 0.10rem 0;*/
+	width: 100%;
+	color: #ACB1B7;
+	position: relative;
+}
+.comments em{
+	display: inline-block;
+	width: 0.54rem;
+	padding-left: 0.2rem;
+	color: #80858C;
+	font-size: 0.12rem;
+	position: relative;
+}
+.comments b{
+	display: inline-block;
+	width: 0.54rem;
+	padding-left: 0.21rem;
+	color: #80858C;
+	font-size: 0.12rem;
+	position: relative;
+}
+.comments em:before{
+	content: "";
+	display: block;
+	width: 0.17rem;
+	height: 0.17rem;
+	background: url(../img/svg/state-thumbs-up.svg) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 0;
+	top:0;
+}
+.comments b:before{
+	content: "";
+	display: block;
+	width: 0.20rem;
+	height: 0.15rem;
+	background: url(../img/svg/state-comment.svg) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 0;
+	top:0.01rem;
+}
+.comments i{
+	display: inline-block;
+	width: 0.60rem;
+	padding-left: 0.21rem;
+	color: #80858C;
+	font-size: 0.12rem;
+	position: relative;
+}
+.comments i:before{
+	content: "";
+	display: block;
+	width: 0.20rem;
+	height: 0.15rem;
+	background: url(../img/svg/state-delete.svg) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 0;
+	top:0.01rem;
+}
+.data_time{
+	font-size: 0.12rem;
+	color:#ACB187;
+	padding:0 0 0.08rem 0.48rem;
+}
+.comment{
+	padding:0 0 0 0.48rem;
+	overflow: hidden;
+	width: 100%;	
+	box-sizing: border-box;
+}
+.comment p{
+	font-size: 0.14rem;
+	color: #41454D;
+	padding: 0.02rem 0;
+}
+.comment p.selected{
+	display: inline-block;
+	width: auto;
+}
+.comment p em{
+	color:#5BAFFF;
+}
+.other_comment{
+	display: none;
+}
+.pecure{
+	width: 100%;
+	overflow: hidden;
+	padding-left: 0.48rem;
+	box-sizing: border-box;
+}
+.pecure a{
+	float: left;
+	width: 1.72rem;
+	height: 1.72rem;
+}
+.pecure a.curr{
+	width: 1.34rem;
+	height: 1.34rem;
+	padding: 0.04rem 0.04rem 0 0;
+}
+.pecure a img{
+	width: 100%;
+}
+
+.pecure a.currs{
+	width: 0.88rem;
+	height: 0.88rem;
+	padding: 0.04rem 0.04rem 0 0;
+}
+.hide{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	background: rgba(72,51,51,.3);
+	z-index: 9;
+	display: none;
+	box-sizing: border-box;
+	position: relative;
+}
+.hide .showimg{
+	width: 2.0rem;
+	height: 2.0rem;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	margin-top: -1.0rem;
+	margin-left: -1.0rem;
+	box-sizing: border-box;
+}
+.hide .showimg img{
+	width: 100%;
+	height: 100%;
+}
